@@ -88,8 +88,17 @@
   justify-content: center;
 }
 
+#email-container ion-icon, 
+#email-container a{
+  flex: 1 1 0;
+}
+
+
 #email-container ion-icon{
   margin-right: 20px;
+  color: var(--main-color);
+  font-size: 20px;
+  max-width: 20px;
 }
 
 #email-container a{
