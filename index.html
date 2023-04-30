@@ -6,8 +6,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Pamela Lima</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- icones devicon.dev-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 <body>
-  <p>HELLO WORLD!</p>
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Pamela Lima</h2>
+      <img src="images/foto_perfil.png" alt="Pamela Lima" id="bio-image">
+      <p>Olá, meu nome é Pamela e sou <span class="highlight">desenvolvedora Front-end</span>.</p>
+      <p id="welcome-text">Boas vindas!</p>
+      <ul id="social-container">
+        <li><a href="https://www.linkedin.com/in/pamelajlima/" target="_blanck"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <div id="email-container">
+        <ion-icon name ="mail-outline"></ion-icon><a href="mailto:pamela.jesus.lima@gmail.com" target="_blanck">Send me a message!</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Pamela Lima</h1>
+      <p id="title"><span class="highlight">Desenvolverora Front-end</span></p>
+      <p class="description">Estudante de sitemas na Faculdade Impacta de Tecnologia <span class="highlight">focada em frontend</span></p>
+      <a href="https://github.com/pamlotusia?tab=repositories" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon> <span>Ver projetos</span> </a>
+      <h2 id="skills-section-title"> Minhas Skills</h2>
+      <p class="description">Conheça as tecnologias que domino:</p>
+      <div class="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Front-end</p>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+        </div>
+        
+        <div class="skills-box">
+          <p class="skills-title">Ferramentas de desenvolvimento</p>
+            <i class="devicon-git-plain"></i>
+            <i class="devicon-github-original-wordmark colored"></i>
+        </div>
+
+        <div class="skills-box">
+          <p class="skills-title">Conhecimentos adquiridos na faculdade</p>
+            <i class="devicon-python-plain-wordmark"></i>
+            <i class="devicon-docker-plain"></i>
+            <i class="devicon-amazonwebservices-plain-wordmark"></i>
+            <i class="devicon-mysql-plain"></i>
+            <i class="devicon-flask-original"></i>
+          
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+<!-- link ion icon -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
 </body>
 </html>
